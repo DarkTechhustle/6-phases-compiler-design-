@@ -1,7 +1,7 @@
 # parser.py
 # Syntax Analyzer (Parser) for a simple arithmetic expression language
 
-from ast import BinOp, Num
+from ast import BinOp, Num, ASTNode
 
 class Parser:
     def __init__(self, tokens):
